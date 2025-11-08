@@ -28,7 +28,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ch/emailservice:latest
+        image: chaitanyaalahari/emailservice:latest
         ports:
         - containerPort: 8080
         env:
